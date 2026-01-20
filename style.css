@@ -108,6 +108,26 @@ body {
     gap: 1.2rem;
 }
 
+.extra-logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+    animation: fadeIn 0.8s ease forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.responsive-extra-logo {
+    max-width: 120px;
+    height: auto;
+    filter: drop-shadow(0 5px 15px rgba(0, 0, 0, 0.3));
+    transition: transform 0.3s ease;
+}
+
+.responsive-extra-logo:hover {
+    transform: scale(1.1);
+}
+
 .link-card {
     display: flex;
     align-items: center;
