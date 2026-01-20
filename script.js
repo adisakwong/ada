@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
     cards.forEach(card => {
         card.addEventListener('click', function(e) {
             // Logic for visual feedback on mobile
-            this.style.background = 'rgba(255, 255, 255, 0.15)';
+            this.style.background = 'rgba(255, 255, 255, 0.1)';
             setTimeout(() => {
                 this.style.background = '';
             }, 200);
