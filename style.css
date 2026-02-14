@@ -186,6 +186,10 @@ body {
     background: linear-gradient(135deg, #8e2de2, #4a00e0);
 }
 
+#link-islamqa .icon-wrapper {
+    background: linear-gradient(135deg, #00c9ff, #92fe9d);
+}
+
 .link-card:hover .icon-wrapper {
     transform: rotate(5deg);
     background: #3d3d3d;
