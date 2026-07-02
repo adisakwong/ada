@@ -291,6 +291,14 @@ body {
     color: #5eead4;
 }
 
+#link-tadabbur-map .icon-wrapper {
+    background: linear-gradient(135deg, #22c55e, #16a34a);
+}
+
+#link-tadabbur-map .icon-wrapper i {
+    color: #86efac;
+}
+
 .link-card:hover .icon-wrapper {
     transform: rotate(5deg);
     background: #3d3d3d;
